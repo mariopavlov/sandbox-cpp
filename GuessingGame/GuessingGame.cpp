@@ -75,11 +75,11 @@ bool isCorrect(int guess, int answer)
 	// Incorrect guess, give more details
 	if (guess > answer)
 	{
-		cout << "Number is higher. Try again: ";
+		cout << "You guess is higher than correct answer. Try again with lower: ";
 	}
 	else
 	{
-		cout << "Number is lower. Try again: ";
+		cout << "You guess is lower than correct answer. Try again with higher: ";
 	}
 
 	return false;
